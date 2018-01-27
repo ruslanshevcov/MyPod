@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "ruslanshevtsov" => "the_storyteller_@mail.ru" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/ruslanshevcov/MyPod.git", :tag => "1.0.0" }
-  s.exclude_files = "MyPod/**/*"
+  s.source       = { :git => "https://github.com/ruslanshevcov/MyPod.git", :tag => "1.0.1" }
+  s.source_files = "MyPod/**/*"
 
 
 end
