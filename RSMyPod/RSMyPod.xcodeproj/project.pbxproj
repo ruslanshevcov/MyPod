@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4432F94D201C41D6002B9F74 /* MyPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4432F94B201C41D6002B9F74 /* MyPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4432F94D201C41D6002B9F74 /* RSMyPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4432F94B201C41D6002B9F74 /* RSMyPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4432F954201C421A002B9F74 /* MyPodClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432F953201C421A002B9F74 /* MyPodClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4432F948201C41D6002B9F74 /* MyPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4432F94B201C41D6002B9F74 /* MyPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPod.h; sourceTree = "<group>"; };
+		4432F948201C41D6002B9F74 /* RSMyPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSMyPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4432F94B201C41D6002B9F74 /* RSMyPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSMyPod.h; sourceTree = "<group>"; };
 		4432F94C201C41D6002B9F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4432F953201C421A002B9F74 /* MyPodClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,7 +32,7 @@
 		4432F93E201C41D5002B9F74 = {
 			isa = PBXGroup;
 			children = (
-				4432F94A201C41D6002B9F74 /* MyPod */,
+				4432F94A201C41D6002B9F74 /* RSMyPod */,
 				4432F949201C41D6002B9F74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,19 +40,19 @@
 		4432F949201C41D6002B9F74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4432F948201C41D6002B9F74 /* MyPod.framework */,
+				4432F948201C41D6002B9F74 /* RSMyPod.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4432F94A201C41D6002B9F74 /* MyPod */ = {
+		4432F94A201C41D6002B9F74 /* RSMyPod */ = {
 			isa = PBXGroup;
 			children = (
-				4432F94B201C41D6002B9F74 /* MyPod.h */,
+				4432F94B201C41D6002B9F74 /* RSMyPod.h */,
 				4432F94C201C41D6002B9F74 /* Info.plist */,
 				4432F953201C421A002B9F74 /* MyPodClass.swift */,
 			);
-			path = MyPod;
+			path = RSMyPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +62,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4432F94D201C41D6002B9F74 /* MyPod.h in Headers */,
+				4432F94D201C41D6002B9F74 /* RSMyPod.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4432F947201C41D6002B9F74 /* MyPod */ = {
+		4432F947201C41D6002B9F74 /* RSMyPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4432F950201C41D6002B9F74 /* Build configuration list for PBXNativeTarget "MyPod" */;
+			buildConfigurationList = 4432F950201C41D6002B9F74 /* Build configuration list for PBXNativeTarget "RSMyPod" */;
 			buildPhases = (
 				4432F943201C41D6002B9F74 /* Sources */,
 				4432F944201C41D6002B9F74 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = MyPod;
+			name = RSMyPod;
 			productName = MyPod;
-			productReference = 4432F948201C41D6002B9F74 /* MyPod.framework */;
+			productReference = 4432F948201C41D6002B9F74 /* RSMyPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4432F942201C41D5002B9F74 /* Build configuration list for PBXProject "MyPod" */;
+			buildConfigurationList = 4432F942201C41D5002B9F74 /* Build configuration list for PBXProject "RSMyPod" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4432F947201C41D6002B9F74 /* MyPod */,
+				4432F947201C41D6002B9F74 /* RSMyPod */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +270,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Ruslan.MyPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -294,6 +295,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = Ruslan.MyPod;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -305,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4432F942201C41D5002B9F74 /* Build configuration list for PBXProject "MyPod" */ = {
+		4432F942201C41D5002B9F74 /* Build configuration list for PBXProject "RSMyPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4432F94E201C41D6002B9F74 /* Debug */,
@@ -314,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4432F950201C41D6002B9F74 /* Build configuration list for PBXNativeTarget "MyPod" */ = {
+		4432F950201C41D6002B9F74 /* Build configuration list for PBXNativeTarget "RSMyPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4432F951201C41D6002B9F74 /* Debug */,

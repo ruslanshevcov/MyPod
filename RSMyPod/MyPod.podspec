@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "MyPod"
+  s.name         = "RSMyPod"
   s.version      = "1.0.1"
   s.summary      = "This is my POD"
   s.description  = "This is test pod"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author             = { "ruslanshevtsov" => "the_storyteller_@mail.ru" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/ruslanshevcov/MyPod.git", :tag => "1.0.1" }
-  s.source_files = "MyPod/**/*"
+  s.source_files = "RSMyPod/**/*"
 
 
 end

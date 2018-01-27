@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyPod.xcodeproj">
+      location = "self:/Users/ruslan/Documents/Projects/MyPod/MyPod/RSMyPod.xcodeproj">
    </FileRef>
 </Workspace>
