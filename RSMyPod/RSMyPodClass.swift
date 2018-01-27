@@ -8,9 +8,9 @@
 
 import UIKit
 
-class RSMyPodClass: NSObject {
+public class RSMyPodClass: NSObject {
 
-    func myPodFunc() -> String {
+    public func myPodFunc() -> String {
         return "It's my POD!"
     }
     
